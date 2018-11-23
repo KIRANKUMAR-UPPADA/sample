@@ -1,2 +1,22 @@
-# sample
-Prerequisites for this project:  If you have Eclipse, download the STS plug-in from here.  If you don’t have Eclipse, download STS from here.  Download the latest JDK from here.   Also for testing please download and install SOAPUI tool from here.   The first example I am going to explain is about HTTP GET request, the second example will be about HTTP POST request, the third example about HTTP PUT request, and the fourth example is for HTTP DELETE request. In all of these examples, I am going to use JSON Representation.  You can download this project from here.  First, create a folder in your C drive: C:\Projects  Open eclipse and select work space as: C:\Projects  From the File menu, select "New" and then "other," and from wizard, expand "Spring Boot" and select "Spring Starter Project" (File->New->other->wizard->Spring Starter Project).
+
+Prerequisites for this project:
+
+1. If you have Eclipse, download the STS plug-in from here https://marketplace.eclipse.org/content/spring-tools-aka-spring-ide-and-spring-tool-suite
+
+2. If you don't have Eclipse, download STS from here https://spring.io/guides/gs/sts/
+
+3. Download the latest JDK from here http://www.oracle.com/technetwork/java/javase/downloads/index.html
+
+4. Also for testing please download and install SOAPUI tool from here https://www.soapui.org/downloads/soapui.html
+
+The first Thing I am going to explain is about HTTP GET request, second example will be about HTTP POST request, third example about HTTP PUT request and fourth example is for HTTP DELETE request. In these entire examples I am going to use JSON Representation.
+
+Before checkout this project create a folder under C drive like C:\Projects
+ 
+Now open command prompt
+
+1. cd c:\Projects
+2. check out the mail branch
+3. cd spring-boot-rest-2
+4. Execute - mvnw clean package
+5. start the server - java -jar target\spring-boot-rest-2-0.0.1-SNAPSHOT.jar
